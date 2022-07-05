@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS dates;
+
+CREATE TABLE dates (
+    id SERIAL PRIMARY KEY,
+    year INT NOT NULL,
+    month INT NOT NULL,
+    day INT NOT NULL
+);
